@@ -1,0 +1,16 @@
+Steps to run System_health_monitor.py:
+
+Step1: Save the Script
+       Filename.py
+
+Step2: Run the script
+      cmd: python system_health_monitor.py
+
+Step3: Check the Logs
+       cmd: system_health.log 
+
+Step4: Automating Script
+      1. Open the crontab editor:
+        cmd: crontab -e
+      2. Schedule Script for every 5minutes:
+        script: 5 * * * * /usr/bin/python3 /path/to/system_health_monitor.py
