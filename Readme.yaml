@@ -1,0 +1,16 @@
+STEPs:
+
+Step 1: Dockerization
+        Create a Docker file
+
+Step 2: Kubernetes Deployment
+        deployment.yaml
+        service.yaml
+        ingress.yaml
+
+Step 3: CI/CD Implementation
+        .github/workflows/ci-cd.yml
+
+Step 4: TLS Implementation
+        Generate TLS Certificates
+        Create Kubernetes Secret
