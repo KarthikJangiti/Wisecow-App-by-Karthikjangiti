@@ -1,0 +1,24 @@
+Steps for automated backup Solutions:
+
+Step1: install paramiko & scp
+       cmd: pip install paramiko scp
+
+Step2: Create a file
+      backup_script.py
+
+Step3: Enter the script
+
+Step4: Configure Parameters with appropriate values
+        LOCAL_DIR, REMOTE_SERVER, REMOTE_USER, REMOTE_PASSWORD, and REMOTE_DIR
+
+Step5: Run the Script
+       cmd: python backup_script.py
+
+Step6: Check the Logs
+       backup.logs
+
+Step7: crontab editor
+       cmd: crontab -e
+
+Step8: Schedule backup every 5 hours
+      cmd: * 5 * * * Python interpreter(EX:/usr/bin/python3)  path to the script.(EX:/path/to/backup_script.py)

@@ -4,17 +4,19 @@ Step1: install psutil
        cmd: pip install psutil
 
 
-Step2: Save the Script
+Step2: Create a file
        Filename.py
 
-Step3: Run the script
+Step3: write the Script
+
+Step4: Run the script
       cmd: python system_health_monitor.py
 
-Step4: Check the Logs
+Step5: Check the Logs
        cmd: system_health.log 
 
-Step5: Automating Script
+Step6: Automating Script
       1. Open the crontab editor:
         cmd: crontab -e
       2. Schedule Script for every 5minutes:
-        script: 5 * * * * /usr/bin/python3 /path/to/system_health_monitor.py
+        script: 5 * * * * Python interpreter(EX:/usr/bin/python3) path to the script.(EX:/path/to/system_health_monitor.py)
