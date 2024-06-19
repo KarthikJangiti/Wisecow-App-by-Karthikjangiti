@@ -10,7 +10,7 @@ Step 2: Kubernetes Deployment
 
 Step 3: CI/CD Implementation
         .github/workflows/ci-cd.yml
-        All github workflow actions need to e edited with actual parameters
+        All github  actions scerets and variables need to e edited with actual parameters
 
 Step 4: TLS Implementation
         Generate TLS Certificates
