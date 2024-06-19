@@ -39,7 +39,7 @@ jobs:
       - name: Set up kubectl
         uses: azure/setup-kubectl@v1
         with:
-          version: v1.18.0  # Specify the kubectl version you need
+          version: v1.18.0  
 
       - name: Set up K8s context
         env:
